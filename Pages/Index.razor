@@ -1,8 +1,6 @@
 ﻿@page "/"
-@using Syncfusion.Blazor.Navigations
-@using Syncfusion.Blazor.SplitButtons
 
-<SfDropDownButton @ref="FileButton" Id="btnFileMenu" Content="File" CssClass="e-dropDown-button">
+<SfDropDownButton @ref="FileButton" id="btnFileMenu" Content="File" CssClass="e-dropDown-button">
     <ChildContent>
         <DropDownButtonEvents OnClose="@DropDownButtonClose"></DropDownButtonEvents>
     </ChildContent>
