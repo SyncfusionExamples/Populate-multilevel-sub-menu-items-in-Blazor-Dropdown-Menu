@@ -5,6 +5,7 @@ This sample explains about how to populating multilevel sub menu items in Blazor
 ## Prerequisites
 
 * Visual Studio 2022
+* .NET 10.0 SDK
 
 ## How to run the project
 
